@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Challenge</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8e1beeba90.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Scripts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">QuickBoosters</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Hot Beverages">Hot Beverages</a></li>
+              <li><a class="dropdown-item" href="#Cold Beverages">Cold Beverages</a></li>
+              <li><a class="dropdown-item" href="#Soft Drinks">Soft Drinks</a></li>
+              <li><a class="dropdown-item" href="#Snacks">Snacks</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div title="Cart" class="shopping-btn">
+          <a href="#" class="btn btn-primary">
+            <i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- First Page -->
+
+  <div class="first-view-page">
+    <div class="first-view-image">
+      <img class="first-view-image-real"src="imgs/image1.jpg" alt="">
+      <h1 class="first-view-text">Delicious Snacks and Breathtaking<br>Coffee For You</h1>
+    </div>
+  </div>
+
+  <!-- Testimonial Section-->
+
+  <section id="people-testimonials">
+    <div class="about-us">
+      <span><h4>What They Say About Us</h4></span>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel-dark carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">I no longer have to go outside of my office to grab a snack, I know I can rely on QuickBoosters to do the job and well!</h2>
+          <img class="testimonial-image" src="imgs/image2.jpg" alt="lady-profile">
+          <em>Manhatan, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">I used to second guess ordering snacks a and quick drink from sites, but now I know I can trust QuickBoosters's app to deliver fast and safe.</h2>
+          <img class="testimonial-image" src="imgs/image3.jpg" alt="lady-profile">
+          <em>Beverly Park, Los Angeles</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Pricing Cards  Section-->
+
+  <section id="pricings">
+    <a href="#full-products">View All Products</a>
+    <div class="row">
+      <div class="my-cards col-lg-4 col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img src="imgs/image4.jpg" class="card-img-top" alt="...">
+          <h6 class="under-image" >Snacks</h6>
+          <div class="card-body">
+            <h4 class="card-title">Chocolate</h4>
+            <p class="card-text">Black chocolate and White chocolate made from the home of chocolate, Switzerland.</p>
+            <div class="my-footer">
+              <div class="stock-availability">
+                <h6>Only 10 left</h6>
+              </div>
+              <div class="item-price">
+                <h3>$15</h3>
+              </div>
+              <div title="Add To Cart" class="shopping-btn">
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-cards col-lg-4 col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img src="imgs/image5.jpg" class="card-img-top" alt="...">
+          <h6 class="under-image">Cold Beverages</h6>
+          <div class="card-body">
+            <h4 class="card-title">Coffee</h4>
+            <p class="card-text">Iced, Hot and all kinds of coffee are available for coffee lovers, find your own taste, order now.</p>
+            <div class="my-footer">
+              <div class="stock-availability">
+                <h6>Available</h6>
+              </div>
+              <div class="item-price">
+                <h3>$4</h3>
+              </div>
+              <div title="Add To Cart" class="shopping-btn">
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-cards col-lg-4 col-md-6">
+        <div class="card" style="width: 18rem;">
+          <img src="imgs/image6.jpg" class="card-img-top" alt="...">
+          <h6 class="under-image">Snacks</h6>
+          <div class="card-body">
+            <h4 class="card-title">Biscuits</h4>
+            <p class="card-text">Both home and industry made biscuits available at low prices, Order now for a free extra pack.</p>
+            <div class="my-footer">
+              <div class="stock-availability">
+                <h6>Sold Out</h6>
+              </div>
+              <div class="item-price">
+                <h3>$10</h3>
+              </div>
+              <div title="Add To Cart" class="shopping-btn">
+                <a href="#" class="btn btn-primary">
+                  <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download App -->
+
+  <div class="download-app-div">
+    <img class="download-app-image"
+        src="imgs/image7.jpg"
+        alt="">
+    <h5 class="download-app-text">Download The App To Get Notifications And Free Delivery straight to your house.</h5>
+    <h6 class="download-app-text-2">App available both on App Store and Play Store</h6>
+    <div id="cta"class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-dark me-md-2" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button class="btn btn-light" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+  </div>
+
+  <!-- All Products -->
+
+  <div class="full-products-div">
+    <div id="full-products">
+      <h3>All Products</h3>
+    </div>
+    <div class="full-products-page">
+      <div class="all-products" id="Hot Beverages">
+        <img class="image-edits" id="image-1"src="imgs/image8.gif.jpeg"alt="">
+        <h6 class="under-image">Hot Beverages</h6>
+        <h5>Hot Coffee</h5>
+        <div class="stock-availability">
+          <h6>Available in Stock</h6>
+        </div>
+        <span>$4</span>
+      </div>
+      <div class="all-products" id="Hot Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image9.jpeg"
+          alt="">
+        <h6 class="under-image">Hot Beverages</h6>
+        <h5>Hot Latte</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$5</span>
+      </div>
+      <div class="all-products" id="Hot Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image10.jpg"
+          alt="">
+        <h6 class="under-image">Hot Beverages</h6>
+        <h5>Hot Chocolate</h5>
+        <div class="stock-availability">
+          <h6>Available in Stock</h6>
+        </div>
+        <span>$4</span>
+      </div>
+      <div class="all-products" id="Hot Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image11.jpg"
+          alt="">
+        <h6 class="under-image">Hot Beverages</h6>
+        <h5>Hot Tea</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$3</span>
+      </div>
+      <div class="all-products" id="Snacks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image12.jpg"
+          alt="">
+        <h6 class="under-image">Snacks</h6>
+        <h5>Biscuits</h5>
+        <div class="stock-availability">
+          <h6>Out of Stock</h6>
+        </div>
+        <span>$10</span>
+      </div>
+      <div class="all-products" id="Snacks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image13.jpeg"
+          alt="">
+        <h6 class="under-image">Snacks</h6>
+        <h5>Chocolate</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$15</span>
+      </div>
+      <div class="all-products" id="Snacks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image14.jpg"
+          alt="">
+        <h6 class="under-image">Snacks</h6>
+        <h5>Cookies</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$12</span>
+      </div>
+      <div class="all-products" id="Snacks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image15.jpg"
+          alt="">
+        <h6 class="under-image">Snacks</h6>
+        <h5>Cake</h5>
+        <div class="stock-availability">
+          <h6>Out Of Stock</h6>
+        </div>
+        <span>$9</span>
+      </div>
+      <div class="all-products" id="Cold Beverages">
+        <img class="image-edits"
+          src="imgs/image16.jpg" id="image-1"
+          alt="">
+        <h6 class="under-image">Cold Beverages</h6>
+        <h5>Iced Coffee</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$16</span>
+      </div>
+      <div class="all-products" id="Cold Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image17.jpg"
+          alt="">
+        <h6 class="under-image">Cold Beverages</h6>
+        <h5>Iced Tea</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$8</span>
+      </div>
+      <div class="all-products" id="Cold Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image18.jpg"
+          alt="">
+        <h6 class="under-image">Cold Beverages</h6>
+        <h5>Iced Mocha</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$14</span>
+      </div>
+      <div class="all-products" id="Cold Beverages">
+        <img class="image-edits" id="image-1"
+          src="imgs/image19.jpg"
+          alt="">
+        <h6 class="under-image">Cold Beverages</h6>
+        <h5>Iced Smoothies</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$6</span>
+      </div>
+      <div class="all-products" id="Soft Drinks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image20.jpg"
+          alt="">
+        <h6 class="under-image">Soft Drinks</h6>
+        <h5>Juice</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$4</span>
+      </div>
+      <div class="all-products" id="Soft Drinks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image21.jpeg"
+          alt="">
+        <h6 class="under-image">Soft Drinks</h6>
+        <h5>Energy Drinks</h5>
+        <div class="stock-availability">
+          <h6>Only 30 Left In Stock</h6>
+        </div>
+        <span>$7</span>
+      </div>
+      <div class="all-products" id="Soft Drinks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image22.png"
+          alt="">
+        <h6 class="under-image">Soft Drinks</h6>
+        <h5>Water</h5>
+        <div class="stock-availability">
+          <h6>Avalaible in Stock</h6>
+        </div>
+        <span>$3</span>
+      </div>
+      <div class="all-products" id="Soft Drinks">
+        <img class="image-edits" id="image-1"
+          src="imgs/image23.jpg"
+          alt="">
+        <h6 class="under-image">Soft Drinks</h6>
+        <h5>Coca Cola</h5>
+        <div class="stock-availability">
+          <h6>Only 80 Left In Stock</h6>
+        </div>
+        <span>$2</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fa-brands fa-facebook"></i>
+    <i class="social-icon fa-brands fa-twitter"></i>
+    <i class="social-icon fa-brands fa-instagram"></i>
+    <i class="social-icon fa-solid fa-envelope"></i>
+    <p>2022 © Copyright QuickBoosters</p>
+
+  </footer>
+
+</body>
+
+</html>
